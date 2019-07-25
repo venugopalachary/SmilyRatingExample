@@ -19,7 +19,7 @@ add this to your dependencies.
 Now place the SmileyRating in your layout.
 ###### *Note: The height of the SmileyRating will be automatically adjusted according to the width of this component.*
 ```xml
-<com.hsalf.smilerating.SmileRating
+< com.play4deal.hello.SmileRating
         android:id="@+id/smile_rating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
