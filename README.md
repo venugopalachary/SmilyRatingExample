@@ -19,13 +19,19 @@ Step 2:
 Now place the SmileyRating in your layout.
 
 Note: The height of the SmileyRating will be automatically adjusted according to the width of this component.
+
+
 <com.hsalf.smilerating.SmileRating
         android:id="@+id/smile_rating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 Step 3:
+
+
 Initialize your view
 SmileRating smileRating = (SmileRating) findViewById(R.id.smile_rating);
+
+
 Set this SmileySelectionListener to get notified when user selects a smiley
 By default the selected smiley will be NONE
 
@@ -133,7 +139,9 @@ You can set change the colors by xml
         app:placeHolderSmileColor="#ffffff"
         app:textNonSelectionColor="#AEB3B5"
         app:textSelectionColor="#000000" />
+	
 Params	Description
+
 app:angryColor	To set the color of the Angry/Terrible smiley's background color.
 app:normalColor	To change the color of all smileys background color except Angry/Terrible smiley.
 app:drawingColor	To change the color of all smileys (Smile and eyes).
